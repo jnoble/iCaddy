@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Courses" syncable="YES">
+        <attribute name="holeNotes" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="holePars" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Games" syncable="YES">
+        <attribute name="course" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="holeScores" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="Profile" syncable="YES">
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Courses" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Games" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Profile" positionX="160" positionY="192" width="128" height="60"/>
+    </elements>
+</model>

@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C801B2ED1524F84F00FCCDD6 /* GamesRecords.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C801B2EB1524F84F00FCCDD6 /* GamesRecords.xcdatamodeld */; };
+		C82002351508624800833F72 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82002341508624800833F72 /* CoreData.framework */; };
+		C8605B7F152549FE007FE8B5 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8605B7D152549FE007FE8B5 /* ThirdViewController.m */; };
+		C8605B8515254A52007FE8B5 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8605B8315254A52007FE8B5 /* FourthViewController.m */; };
+		C8605B8A1525FD17007FE8B5 /* ProfileClubRanges.m in Sources */ = {isa = PBXBuildFile; fileRef = C8605B881525FD17007FE8B5 /* ProfileClubRanges.m */; };
+		C8605C0C152BD407007FE8B5 /* CourseScoreCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C8605C0B152BD407007FE8B5 /* CourseScoreCard.m */; };
+		C8605C10152BD463007FE8B5 /* NewCourseInput.m in Sources */ = {isa = PBXBuildFile; fileRef = C8605C0F152BD463007FE8B5 /* NewCourseInput.m */; };
+		C8605C13152BD735007FE8B5 /* PastGamesViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = C8605C12152BD734007FE8B5 /* PastGamesViewer.m */; };
+		C8605C16152BD890007FE8B5 /* HoleNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = C8605C15152BD890007FE8B5 /* HoleNotes.m */; };
+		C8605C19152BD8D6007FE8B5 /* ClubRecommend.m in Sources */ = {isa = PBXBuildFile; fileRef = C8605C18152BD8D6007FE8B5 /* ClubRecommend.m */; };
+		C895732A1506CF0400DDDA85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89573291506CF0400DDDA85 /* UIKit.framework */; };
+		C895732C1506CF0400DDDA85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C895732B1506CF0400DDDA85 /* Foundation.framework */; };
+		C895732E1506CF0400DDDA85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C895732D1506CF0400DDDA85 /* CoreGraphics.framework */; };
+		C89573341506CF0400DDDA85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C89573321506CF0400DDDA85 /* InfoPlist.strings */; };
+		C89573361506CF0400DDDA85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C89573351506CF0400DDDA85 /* main.m */; };
+		C895733A1506CF0400DDDA85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C89573391506CF0400DDDA85 /* AppDelegate.m */; };
+		C895733D1506CF0400DDDA85 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C895733B1506CF0400DDDA85 /* MainStoryboard.storyboard */; };
+		C89573401506CF0400DDDA85 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C895733F1506CF0400DDDA85 /* FirstViewController.m */; };
+		C89573421506CF0400DDDA85 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C89573411506CF0400DDDA85 /* first.png */; };
+		C89573441506CF0400DDDA85 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C89573431506CF0400DDDA85 /* first@2x.png */; };
+		C89573471506CF0400DDDA85 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C89573461506CF0400DDDA85 /* SecondViewController.m */; };
+		C89573491506CF0400DDDA85 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C89573481506CF0400DDDA85 /* second.png */; };
+		C895734B1506CF0400DDDA85 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C895734A1506CF0400DDDA85 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C801B2EC1524F84F00FCCDD6 /* GamesRecords.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GamesRecords.xcdatamodel; sourceTree = "<group>"; };
+		C82002341508624800833F72 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C8605B7C152549FE007FE8B5 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C8605B7D152549FE007FE8B5 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		C8605B8215254A52007FE8B5 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		C8605B8315254A52007FE8B5 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		C8605B871525FD17007FE8B5 /* ProfileClubRanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileClubRanges.h; sourceTree = "<group>"; };
+		C8605B881525FD17007FE8B5 /* ProfileClubRanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileClubRanges.m; sourceTree = "<group>"; };
+		C8605C0A152BD407007FE8B5 /* CourseScoreCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseScoreCard.h; sourceTree = "<group>"; };
+		C8605C0B152BD407007FE8B5 /* CourseScoreCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseScoreCard.m; sourceTree = "<group>"; };
+		C8605C0E152BD463007FE8B5 /* NewCourseInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCourseInput.h; sourceTree = "<group>"; };
+		C8605C0F152BD463007FE8B5 /* NewCourseInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCourseInput.m; sourceTree = "<group>"; };
+		C8605C11152BD734007FE8B5 /* PastGamesViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastGamesViewer.h; sourceTree = "<group>"; };
+		C8605C12152BD734007FE8B5 /* PastGamesViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastGamesViewer.m; sourceTree = "<group>"; };
+		C8605C14152BD890007FE8B5 /* HoleNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoleNotes.h; sourceTree = "<group>"; };
+		C8605C15152BD890007FE8B5 /* HoleNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoleNotes.m; sourceTree = "<group>"; };
+		C8605C17152BD8D6007FE8B5 /* ClubRecommend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubRecommend.h; sourceTree = "<group>"; };
+		C8605C18152BD8D6007FE8B5 /* ClubRecommend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubRecommend.m; sourceTree = "<group>"; };
+		C89573251506CF0400DDDA85 /* iCaddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCaddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89573291506CF0400DDDA85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C895732B1506CF0400DDDA85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C895732D1506CF0400DDDA85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C89573311506CF0400DDDA85 /* iCaddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCaddy-Info.plist"; sourceTree = "<group>"; };
+		C89573331506CF0400DDDA85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C89573351506CF0400DDDA85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C89573371506CF0400DDDA85 /* iCaddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCaddy-Prefix.pch"; sourceTree = "<group>"; };
+		C89573381506CF0400DDDA85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C89573391506CF0400DDDA85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C895733C1506CF0400DDDA85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C895733E1506CF0400DDDA85 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C895733F1506CF0400DDDA85 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C89573411506CF0400DDDA85 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C89573431506CF0400DDDA85 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C89573451506CF0400DDDA85 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C89573461506CF0400DDDA85 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C89573481506CF0400DDDA85 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C895734A1506CF0400DDDA85 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C89573221506CF0400DDDA85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82002351508624800833F72 /* CoreData.framework in Frameworks */,
+				C895732A1506CF0400DDDA85 /* UIKit.framework in Frameworks */,
+				C895732C1506CF0400DDDA85 /* Foundation.framework in Frameworks */,
+				C895732E1506CF0400DDDA85 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C895731A1506CF0300DDDA85 = {
+			isa = PBXGroup;
+			children = (
+				C801B2EB1524F84F00FCCDD6 /* GamesRecords.xcdatamodeld */,
+				C82002341508624800833F72 /* CoreData.framework */,
+				C895732F1506CF0400DDDA85 /* iCaddy */,
+				C89573281506CF0400DDDA85 /* Frameworks */,
+				C89573261506CF0400DDDA85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C89573261506CF0400DDDA85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C89573251506CF0400DDDA85 /* iCaddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C89573281506CF0400DDDA85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C89573291506CF0400DDDA85 /* UIKit.framework */,
+				C895732B1506CF0400DDDA85 /* Foundation.framework */,
+				C895732D1506CF0400DDDA85 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C895732F1506CF0400DDDA85 /* iCaddy */ = {
+			isa = PBXGroup;
+			children = (
+				C895733B1506CF0400DDDA85 /* MainStoryboard.storyboard */,
+				C89573381506CF0400DDDA85 /* AppDelegate.h */,
+				C89573391506CF0400DDDA85 /* AppDelegate.m */,
+				C8605C17152BD8D6007FE8B5 /* ClubRecommend.h */,
+				C8605C18152BD8D6007FE8B5 /* ClubRecommend.m */,
+				C8605C14152BD890007FE8B5 /* HoleNotes.h */,
+				C8605C15152BD890007FE8B5 /* HoleNotes.m */,
+				C8605C11152BD734007FE8B5 /* PastGamesViewer.h */,
+				C8605C12152BD734007FE8B5 /* PastGamesViewer.m */,
+				C8605C0E152BD463007FE8B5 /* NewCourseInput.h */,
+				C8605C0F152BD463007FE8B5 /* NewCourseInput.m */,
+				C8605C0A152BD407007FE8B5 /* CourseScoreCard.h */,
+				C8605C0B152BD407007FE8B5 /* CourseScoreCard.m */,
+				C8605B871525FD17007FE8B5 /* ProfileClubRanges.h */,
+				C8605B881525FD17007FE8B5 /* ProfileClubRanges.m */,
+				C895733E1506CF0400DDDA85 /* FirstViewController.h */,
+				C895733F1506CF0400DDDA85 /* FirstViewController.m */,
+				C89573451506CF0400DDDA85 /* SecondViewController.h */,
+				C89573461506CF0400DDDA85 /* SecondViewController.m */,
+				C8605B7C152549FE007FE8B5 /* ThirdViewController.h */,
+				C8605B7D152549FE007FE8B5 /* ThirdViewController.m */,
+				C8605B8215254A52007FE8B5 /* FourthViewController.h */,
+				C8605B8315254A52007FE8B5 /* FourthViewController.m */,
+				C89573411506CF0400DDDA85 /* first.png */,
+				C89573431506CF0400DDDA85 /* first@2x.png */,
+				C89573481506CF0400DDDA85 /* second.png */,
+				C895734A1506CF0400DDDA85 /* second@2x.png */,
+				C89573301506CF0400DDDA85 /* Supporting Files */,
+			);
+			path = iCaddy;
+			sourceTree = "<group>";
+		};
+		C89573301506CF0400DDDA85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C89573311506CF0400DDDA85 /* iCaddy-Info.plist */,
+				C89573321506CF0400DDDA85 /* InfoPlist.strings */,
+				C89573351506CF0400DDDA85 /* main.m */,
+				C89573371506CF0400DDDA85 /* iCaddy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C89573241506CF0400DDDA85 /* iCaddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C895734E1506CF0400DDDA85 /* Build configuration list for PBXNativeTarget "iCaddy" */;
+			buildPhases = (
+				C89573211506CF0400DDDA85 /* Sources */,
+				C89573221506CF0400DDDA85 /* Frameworks */,
+				C89573231506CF0400DDDA85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCaddy;
+			productName = iCaddy;
+			productReference = C89573251506CF0400DDDA85 /* iCaddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C895731C1506CF0300DDDA85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C895731F1506CF0300DDDA85 /* Build configuration list for PBXProject "iCaddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C895731A1506CF0300DDDA85;
+			productRefGroup = C89573261506CF0400DDDA85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C89573241506CF0400DDDA85 /* iCaddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C89573231506CF0400DDDA85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89573341506CF0400DDDA85 /* InfoPlist.strings in Resources */,
+				C895733D1506CF0400DDDA85 /* MainStoryboard.storyboard in Resources */,
+				C89573421506CF0400DDDA85 /* first.png in Resources */,
+				C89573441506CF0400DDDA85 /* first@2x.png in Resources */,
+				C89573491506CF0400DDDA85 /* second.png in Resources */,
+				C895734B1506CF0400DDDA85 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C89573211506CF0400DDDA85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89573361506CF0400DDDA85 /* main.m in Sources */,
+				C895733A1506CF0400DDDA85 /* AppDelegate.m in Sources */,
+				C89573401506CF0400DDDA85 /* FirstViewController.m in Sources */,
+				C89573471506CF0400DDDA85 /* SecondViewController.m in Sources */,
+				C801B2ED1524F84F00FCCDD6 /* GamesRecords.xcdatamodeld in Sources */,
+				C8605B7F152549FE007FE8B5 /* ThirdViewController.m in Sources */,
+				C8605B8515254A52007FE8B5 /* FourthViewController.m in Sources */,
+				C8605B8A1525FD17007FE8B5 /* ProfileClubRanges.m in Sources */,
+				C8605C0C152BD407007FE8B5 /* CourseScoreCard.m in Sources */,
+				C8605C10152BD463007FE8B5 /* NewCourseInput.m in Sources */,
+				C8605C13152BD735007FE8B5 /* PastGamesViewer.m in Sources */,
+				C8605C16152BD890007FE8B5 /* HoleNotes.m in Sources */,
+				C8605C19152BD8D6007FE8B5 /* ClubRecommend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C89573321506CF0400DDDA85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C89573331506CF0400DDDA85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C895733B1506CF0400DDDA85 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C895733C1506CF0400DDDA85 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C895734C1506CF0400DDDA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C895734D1506CF0400DDDA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C895734F1506CF0400DDDA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCaddy/iCaddy-Prefix.pch";
+				INFOPLIST_FILE = "iCaddy/iCaddy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C89573501506CF0400DDDA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCaddy/iCaddy-Prefix.pch";
+				INFOPLIST_FILE = "iCaddy/iCaddy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C895731F1506CF0300DDDA85 /* Build configuration list for PBXProject "iCaddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C895734C1506CF0400DDDA85 /* Debug */,
+				C895734D1506CF0400DDDA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C895734E1506CF0400DDDA85 /* Build configuration list for PBXNativeTarget "iCaddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C895734F1506CF0400DDDA85 /* Debug */,
+				C89573501506CF0400DDDA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C801B2EB1524F84F00FCCDD6 /* GamesRecords.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C801B2EC1524F84F00FCCDD6 /* GamesRecords.xcdatamodel */,
+			);
+			currentVersion = C801B2EC1524F84F00FCCDD6 /* GamesRecords.xcdatamodel */;
+			path = GamesRecords.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C895731C1506CF0300DDDA85 /* Project object */;
+}
